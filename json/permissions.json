@@ -1,0 +1,363 @@
+{
+  "permissions":{
+    "SiteController":{
+      "actions":[
+        "index",
+        "sales"
+      ]
+    },
+    "UserController":{
+      "actions":[
+        "index",
+        "create",
+        "update",
+        "change-password",
+        "active"
+      ]
+    },
+    "UserFrontendController":{
+      "actions":[
+        "index"
+      ]
+    },
+    "MergeController":{
+      "actions":[
+        "index",
+        "merge"
+      ]
+    },
+    "StaticPageController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active"
+      ]
+    },
+    "CountriesController": {
+      "actions" :[
+        "index",
+        "create",
+        "update"
+      ]
+    },
+    "StatesController": {
+      "actions" :[
+        "index",
+        "create",
+        "update"
+      ]
+    },
+    "TownsController": {
+      "actions" :[
+        "index",
+        "create",
+        "update"
+      ]
+    },
+    "OperationsController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view"
+      ]
+    },
+    "ModelosController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view"
+      ]
+    },
+    "UserMembershipController":{
+      "actions":[
+        "index",
+        "create",
+        "update",
+        "delete",
+        "list"
+      ]
+    },
+    "AdvertisementsController":{
+      "actions":[
+        "index",
+        "view",
+        "active",
+        "list-images",
+        "validate-images",
+        "actions-images",
+        "map",
+        "image-main"
+      ]
+    },
+    "ApprovateImagesController":{
+      "actions":[
+        "index",
+        "list-images",
+        "validate-images",
+        "actions-images"
+      ]
+    },
+    "ReportsController":{
+      "actions":[
+        "index",
+        "log-advertisement",
+        "logs-soap",
+        "log-target",
+        "truncate"
+      ]
+    },
+    "PatentsController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "view"
+      ]
+    },
+    "CitysController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "view"
+      ]
+    },
+    "BulletsController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "view"
+      ]
+    },
+    "SubCategoryController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view"
+      ]
+    },
+    "ChatsController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view"
+      ]
+    },
+    "MembershipBlockController": {
+      "actions" :[
+        "index",
+        "update",
+        "delete",
+        "active",
+        "sorting",
+        "creating-block",
+        "memberships"
+      ]
+    }, 
+    "AdvertisementBlockController": {
+      "actions" :[
+        "index",
+        "update",
+        "delete",
+        "active",
+        "sorting",
+        "creating-block",
+        "advertisements",
+        "publicity-mark"
+      ]
+    }, 
+    "YiiSettingsController": {
+      "actions" :[
+        "index",
+        "flush"
+      ]
+    },
+    "MembershipBlockController": {
+      "actions" :[
+        "index",
+        "update",
+        "delete",
+        "active",
+        "sorting",
+        "creating-block",
+        "memberships"
+      ]
+    },
+    "BranchOfficeController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view",
+        "cities",
+        "towns"
+      ]
+    },
+    "AgencyController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "active",
+        "view",
+        "cities",
+        "towns"
+      ]
+    },
+    "SubCategoriesVariosController": {
+      "actions" :[
+        "index",
+        "create",
+        "update",
+        "view"
+      ]
+    },
+    "BlockInAdvertisementController": {
+      "actions" : [
+        "index",
+        "properties",
+        "creating-property",
+        "delete",
+        "change-title"
+      ]
+    },
+    "ReportDetailsController": {
+      "actions" : [
+        "index"
+      ]
+    }
+  },
+  "menu": {
+    "SiteController":{
+      "url":"",
+      "label":"Inicio",
+      "icon":"home"
+    },
+    "SubCategoryController":{
+      "url":"sub-category",
+      "label":"Sub Categorias",
+      "icon":"folder-open"
+    },
+    "OperationsController":{
+      "url":"operations",
+      "label":"Operaciones",
+      "icon":"wrench"
+    },
+    "UserController" :{
+      "url":"rbac/user",
+      "label":"Usuarios",
+      "icon":"user"
+    },
+    "UserMembershipController" : {
+      "url":"user-membership",
+      "label":"Usuarios Membresias",
+      "icon":"users"
+    },
+    "ChatsController" :{
+      "url":"chats",
+      "label":"Chats",
+      "icon":"comments"
+    },
+    "MembershipBlockController" :{
+      "url":"membership-block",
+      "label":"Bloques de membresias",
+      "icon":"cubes"
+    },
+    "AdvertisementBlockController" :{
+      "url":"advertisement-block",
+      "label":"Bloques de anuncios",
+      "icon":"cubes"
+    },
+    "BranchOfficeController" :{
+      "url":"branch-office",
+      "label":"Sucursales",
+      "icon":"map-marker"
+    },
+    "AgencyController" :{
+      "url":"agency",
+      "label":"Agencias",
+      "icon":"building"
+    },
+    "AdvertisementsController" :{
+      "url":"advertisements",
+      "label":"Anuncios",
+      "icon":"tags"
+    },
+    "PropertiesController" :{
+      "url":"properties",
+      "label":"Propiedades",
+      "icon":"bars"
+    },
+    "ApprovateImagesController" :{
+      "url":"approvate-images/list-images",
+      "label":"Aprobar Imagenes",
+      "icon":"check"
+    },
+    "ReportsController" :{
+      "url":"reports",
+      "label":"Reportes",
+      "icon":"pencil"
+    },
+    "BlockInAdvertisementController" :{
+      "url":"block-in-advertisement",
+      "label":"Bloques de propiedades",
+      "icon":"cubes"
+    },
+    "SubCategoriesVariosController" :{
+      "url":"sub-categories-varios",
+      "label":"Sub Categoria Varios",
+      "icon":"window-restore"
+    },
+    "YiiSettingsController" :{
+      "url":"yii-settings",
+      "label":"Configuraciones",
+      "icon":"cogs"
+    },
+    "ModelosController" :{
+      "url":"modelos",
+      "label":"Modelos",
+      "icon":"car"
+    },
+    "PatentsController" :{
+      "url":"patents",
+      "label":"Marcas",
+      "icon":"life-ring"
+    },
+    "CitysController" :{
+      "url":"citys",
+      "label":"Ciudades",
+      "icon":"globe"
+    },
+    "BulletsController" :{
+      "url":"bullets",
+      "label":"Viñetas",
+      "icon":"bullseye"
+    },
+    "UserFrontendController" :{
+      "url":"user-frontend",
+      "label":"Usuarios FrontEnd",
+      "icon":"group"
+    },
+    "MergeController" :{
+      "url":"merge-ad-user/merge",
+      "label":"Reasignar Cliente",
+      "icon":"random"
+    },
+    "ReportDetailsController" :{
+      "url":"report-details",
+      "label":"Reporte Detallado",
+      "icon":"pencil"
+    }
+  }
+}
